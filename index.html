@@ -1,42 +1,113 @@
-<!--This is a comment in html. Comments help others reading your code to know what you're doing!-->
-<!--This tag declares the type of document. In this case, it's html!-->
+<!DOCTYPE css>
+h3{border:5px solid #03818f}
 <!DOCTYPE html>
-<!--The html tag is where all your html code will go!-->
 <html>
-  <!--The head tag is where all the metadata(the information about your html file will go)-->
   <head>
-    <!--The title tag is pretty self-explanatory. This information is displayed at the top of the page in the html file.-->
-    <title>Hand in Hand - Web Development</title>
+    <title>Minecraft</title>
   </head>
-  <!--The body tag is where we add new things that will make your html page interesting!-->
   <body>
-    <h1>Title!</h1>
-    <!--A link to a second page!-->
-    <a href="styled/">Styled page</a>
-    <p>According to all known laws of aviation, there is no way a bee should be able to fly.
+    <h1>Hello, this is a website about Minecraft.</h1>
+    <img
+         src=https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-07-19-11-39/minecraft-fans-find-seed-for-title-screen-background-panorama-1595155174941.jpg/EG11/resize/1200x-1/minecraft-fans-find-seed-for-title-screen-background-panorama-1595155174941.jpg
+   <p>Minecraft is a game that consists of either creating big machines and builds or trying to survive with monsters trying to kill you.
+    In survival mode, you will have to get enough materials and weapons to be able to survive. In creative mode, you can build anything without having to find the resources you need to build them.
+    </p>
+  <p>There are many tiers of weapons, each with a different durability and attack damage. Here are some tables.</p>
+  <h2>Pickaxe</h2>
+  <br>
+  <table>
     <br>
-    Its wings are too small to get its fat little body off the ground.
-    <br>
-    The bee, of course, fliiies anyway because bees don't care what humans think is impossible.</p>
-    <!--A link to the google homepage-->
-    <a href="https://google.com">Google</a>
-    <br>
-    <br>
-    <!--Displays the image of the github logo-->
-    <img src="https://www.gooddata.com/sites/default/files/images/featured_logo_github_1.png">
-    <br>
-    <h2>Form</h2>
-    <!--Form-->
-    <form>
-      <label for="fname">First name:</label>
-      <br>
-      <input type="text" name="fname">
-      <br>
-      <label for="lname">Last name:</label>
-      <br>
-      <input type="text" name="lname">
-      <br>
-      <input type="submit" value="Submit">
-    </form>
-  </body>
-</html>
+    <tr>
+      <th>Type</th>
+      <th>Damage</th>
+      <th>Durability</th>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>2</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>Stone</td>
+      <td>3</td>
+      <td>132</td>
+    </tr>
+    <tr>
+      <td>Iron</td>
+      <td>4</td>
+      <td>251</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>2</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>Diamond</td>
+      <td>5</td>
+      <td>1562</td>
+    </tr>
+    <tr>
+      <td>Netherite</td>
+      <td>6</td>
+      <td>2032</td>
+    </tr>
+  </table>
+  <br>
+  <h2>Sword</h2>
+  <br>
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Damage</th>
+      <th>durability</th>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>4</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>Stone</td>
+      <td>5</td>
+      <td>132</td>
+    </tr>
+    <tr>
+      <td>Iron<td>
+      <td>6</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>4</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>Diamond</td>
+      <td>7</td>
+      <td>1562</td>
+    </tr>
+    <tr>
+      <td>Netherite</td>
+      <td>8</td>
+      <td>2032</td>
+    </tr>
+  </table>
+  <br>
+  <h2>The other tool not as important. Shovels destroy dirt, sand, and gravel faster,hoes till dirt and harvest crops faster, and axes can chop wood faster.</h2>
+  <h2>Here is how to craft all of those tools.<h2>
+<br>
+    <ol>
+      <li>img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAABwCAMAAABl9G/OAAAARVBMVEWLi4vGxsb///83NzcMNzAszbEIJSCM9OIglYEOPzai9udK7dEz68soHgvR+vNJNhUbe2srx6ww272JZydoTh4eincVY1U9ej4KAAACLklEQVR4nO3c4ZKCIBQFYNdN11bFMuv9H3W9IYMpCBYsROf8csc7Dt/MjYrbbPaVULLQC3CZEfNtTJa5qgFmHyYzJM9d1QADzKdiDlOAiQtzOORTJAeY8Bii/N7DWN8LDjChMURhjCh5Xo8BJiYMQdg9dS0aDZiwGEH5mVJVotGAiQHD2BzDGw2Y8BjGikJiTmOAiQNDb5XVlGJMVQETHkOcuj6diil09bZbc3KYvp9jeJMBEx5DHP7Cly9+9xjzUa/q6PfTMfKgaX7Y5Bpjepbq2cA8XwOMVSYMXZjiqgaYPRibbc9VDTD7MObCGDeA4z3A+MSs28/8rOOxac5nYPyOAenePgynNA0wfseA/K49Zk0BRlDcjgHFfTuMigKMnzGgrDBj1BRgXIwBt2tUmHLMNgUYF2NAU5UKc7sRR08BxsUY0ExZr6ksr9ey1FOA8TMGXFJ0GD0FGD9jwCVFtSbOEVs0MEuMnzHgkrJeU9cNA3H4Fg2MGuN+DLikLNfUdZdL2/KPNToOMD7GgFtHTQQYBqLIv4FRY/53DMi3ZNOTgXm15hnM1ltl2hi6SGYMmBQmsTFgUhhzYbgNwDbAvFYDjFUcYbqOPga6xdhs8+ttH5hHCv/i9KY/OE0WIyjAxIWhAyDxhRaYeDCyxYCJCTNvMWDiwTy2GDCxYJYtBkwcmHWLARMDRtViwITHqFsMmNAYPQWYsJi21VGACYt5vQaYPZgYx4DAJPePdNPJH4zTbSVmtLkWAAAAAElFTkSuQmCC></li>
+      <li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
